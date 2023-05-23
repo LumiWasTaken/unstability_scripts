@@ -9,6 +9,7 @@ Skips Duplicates (if its ran twice)
 Downloads all batchinfos (settings, promts)
 
   pip install asyncio aiohttp tqdm
+  
   python history_dl.py 516a2cq1-5871-41ag-h1c6-en22aa66c118
 
 You need to supply your AuthToken (the funny letters above)

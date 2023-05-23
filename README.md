@@ -4,13 +4,13 @@
 I don't know.
 I just fill the gaps they didn't take care of.
 ### 1 - History Downloader
-Downloads your Image history to a subfolder
-Skips Duplicates (if its ran twice)
-Downloads all batchinfos (settings, promts)
+- Downloads your Image history to a subfolder
+- Skips Duplicates (if its ran twice)
+- Downloads all batchinfos (settings, prompts)
 
-  pip install asyncio aiohttp tqdm
+    pip install asyncio aiohttp tqdm
   
-  python history_dl.py 516a2cq1-5871-41ag-h1c6-en22aa66c118
+    python history_dl.py 516a2cq1-5871-41ag-h1c6-en22aa66c118
 
 You need to supply your AuthToken (the funny letters above)
 How to get them?

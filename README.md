@@ -33,6 +33,6 @@ How to get them?
 # Idiot Disclaimer: DO NOT SHARE THAT TOKEN WITH ANYONE
 
 # Examples:
-![History_Folder](https://github.com/LumiWasTaken/unstability_scripts/assets/49376128/188113c6-0ee9-4ea9-9733-0d118ec4f1c8)
+![History_Folder](https://github.com/LumiWasTaken/unstability_scripts/assets/49376128/8ac6f4de-611f-4dd9-8ee9-165dcc7a1a5a)
 ![Image_Folder](https://github.com/LumiWasTaken/unstability_scripts/assets/49376128/9ddc1927-6506-4154-abc5-949bcc23be1b)
 ![Image_Prompt](https://github.com/LumiWasTaken/unstability_scripts/assets/49376128/28174c56-b6c7-47bf-aaf3-a82712614101)

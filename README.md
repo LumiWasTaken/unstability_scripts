@@ -2,8 +2,18 @@
 
 ## Why?
 I don't know.
+
 I just fill the gaps they didn't take care of.
-### 1 - History Downloader
+
+## What is Python, How do i get it?
+### Python is a programming language.
+- To use this Script you need to have Python installed on your PC. 
+- I have tested it with Python 3.10 (Link: https://www.python.org/ftp/python/3.10.9/python-3.10.9-amd64.exe)
+- Download and install python
+- IMPORTANT: CHECK "ADD TO PATH"
+- (follow below)
+
+### 1 - History Downloader (Have python installed)
 - Downloads your Image history to a subfolder
 - Skips Duplicates (if its ran twice)
 - Downloads all batchinfos (settings, prompts)

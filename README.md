@@ -13,17 +13,30 @@ I just fill the gaps they didn't take care of.
 - IMPORTANT: CHECK "ADD TO PATH"
 - (follow below)
 
-### 1 - History Downloader (Have python installed)
+### 1 - History Deletion (Download & Delete all generated Images) (Have python installed)
+- Downloads your Image history to a subfolder (optional)
+- Downloads all batchinfos (settings, prompts) (optional)
+- Removes ALL Images from the Server.
+
+#### Install Dependencies:
+    pip install asyncio aiohttp tqdm
+  
+    python history_delete.py 516a2cq1-5871-41ag-h1c6-en22aa66c118 < (Replace with your token)
+
+
+### 2 - History Downloader (Have python installed)
 - Downloads your Image history to a subfolder
 - Skips Duplicates (if its ran twice)
 - Downloads all batchinfos (settings, prompts)
 
+#### Install Dependencies:
     pip install asyncio aiohttp tqdm
   
     python history_dl.py 516a2cq1-5871-41ag-h1c6-en22aa66c118
 
 You need to supply your AuthToken (the funny letters above)
-How to get them?
+
+# How to get the AuthToken?
 
 1. Go to unstability.ai and login
 2. Press F12

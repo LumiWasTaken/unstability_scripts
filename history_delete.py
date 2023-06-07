@@ -62,7 +62,7 @@ async def fetch_image_history(auth_token):
             print(f"Fetching history {len(result)}")
             async with session.post(url, headers=headers, json=body) as response:
                 data = await response.json()
-                if(response.status != 200 or len(data) == 1):
+                if(response.status != 200 or (len(data) == 1 and len(result) == 0)):
                     print("Invalid Token or Empty history! Please doublecheck.")
                     exit(1)
                 result.extend(data["results"])
